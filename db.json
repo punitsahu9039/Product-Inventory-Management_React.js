@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "44e6",
+      "name": "mgjfdnhkjhq",
+      "brand": "hkjkjh",
+      "category": "hjk",
+      "price": "jh",
+      "description": "jhjk21000",
+      "created": "kjh"
+    },
+    {
+      "id": "8422",
+      "name": "fdalkj",
+      "brand": "jkljlk",
+      "category": "jlkhj",
+      "price": "hjhjk",
+      "description": "hkjh",
+      "created": "hkj"
+    },
+    {
+      "id": "e8ee",
+      "name": "i phone 15",
+      "brand": "Apple",
+      "category": "i phone",
+      "price": "150000",
+      "description": "good phone",
+      "created": "12-12-2023"
+    },
+    {
+      "id": "95fd",
+      "name": "galaxy",
+      "brand": "galaxy",
+      "category": "galaxy",
+      "price": "galaxy",
+      "description": "galaxy",
+      "created": "01-01-2024"
+    },
+    {
+      "id": "b1c6",
+      "name": "kluhjt",
+      "brand": "u ku hk",
+      "category": "kug ",
+      "price": "uku",
+      "description": "uyku",
+      "created": "yuy"
+    },
+    {
+      "id": "8f40",
+      "brand": "jgg",
+      "name": "kjgkug",
+      "price": "mh",
+      "category": "hvh",
+      "description": "jhfh",
+      "created": "mhvh"
+    }
+  ]
+}

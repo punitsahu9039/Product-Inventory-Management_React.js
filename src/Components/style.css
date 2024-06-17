@@ -1,0 +1,15 @@
+.background
+{
+    background-image: url(./src/images/background.jpg);
+}
+.card
+{
+    background-color: rgba(255, 255, 255, 0.413);
+    margin-top:90px ;
+}
+.inputform
+{
+    background-color: blueviolet;
+
+
+}
