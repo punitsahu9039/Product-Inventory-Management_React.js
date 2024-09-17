@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { message } from 'antd'; 
 
 const AddProduct=()=>{
 const [input,handleinput]=useState({});
@@ -18,7 +19,7 @@ const saveData=()=>{
     let url="http://localhost:3000/products";
     axios.post(url,input).then(()=>{
        
-        alert("Data Saved Successfully")
+        message.success("Data Saved Successfully")
         navigate("./Products")
     })
 }
@@ -34,6 +35,8 @@ const saveData=()=>{
         Enter Category : <input type="text" name="category" onChange={handleform} /> <br /> <br/>
         Enter Price : <input type="text" name="price" onChange={handleform} /> <br /> <br/>
         Enter Description : <input type="text" name="description" onChange={handleform} /> <br /> <br/>
+        Enter Quantity : <input type="number" name="quantity" onChange={handleform} /> <br /> <br/>
+
         Enter Created : <input type="text" name="created" onChange={handleform}  /> <br /> <br/>  
         </form>
         </div>

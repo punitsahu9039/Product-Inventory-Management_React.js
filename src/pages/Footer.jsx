@@ -24,28 +24,28 @@ export default function App() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/cybromtechnologybhopal?mibextid=ZbWKwL' className='me-4 text-reset'>
           
             < FaFacebook />
             </a>
-            <a href='' className='me-4 text-reset'>
+            <a href='https://en.m.wikipedia.org/wiki/Twitter' className='me-4 text-reset'>
             
             <FaTwitter />
 
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.google.co.in/' className='me-4 text-reset'>
          
             <IoLogoGoogle/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/sahupunit100?igsh=MXV4ZWV5aXJ5Y2h2OA==' className='me-4 text-reset'>
          
             <FaInstagram/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/in/punit-sahu-9871552b9' className='me-4 text-reset'>
          
             <FaLinkedinIn/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://github.com/punitsahu9039' className='me-4 text-reset'>
      
             <FaGithub/>
           </a>
@@ -68,17 +68,18 @@ export default function App() {
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='https://www.flipkart.com/search?q=smart%20phones&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off' className='text-reset'>
                   Smart-phone
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='https://www.flipkart.com/search?q=apple%20mobiles&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off' className='text-reset'>
                   Apple-mobile
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='https://www.flipkart.com/search?q=multimedia+mobile&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_2_11_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_2_11_na_na_ps&as-pos=2&as-type=RECENT&suggestionId=multimedia+mobile&requestId=64c4171f-80ec-472c-a1d9-387c74530f45&as-searchtext=multimedia%20
+                ' className='text-reset'>
                   Multimedia-phone
                 </a>
               </p>

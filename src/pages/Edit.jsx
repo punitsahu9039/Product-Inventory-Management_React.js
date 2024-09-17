@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { message } from "antd";
 const Edit=()=>{
     const[mydata, setmydata]=useState({})
     const{id}=useParams();
@@ -24,10 +25,11 @@ const Edit=()=>{
             setmydata(values=>({...values,[name]:value}))
     }
 
-    const savedata=()=>{
+    const savedata=(e)=>{
+        e.preventDefault();
         let url=`http://localhost:3000/products/${id}`;
         axios.put(url,mydata).then((res)=>{
-            alert("data updated successfully")
+            message.success("Data Updated Successfully")
             navigate("Products")
         })
     }
@@ -40,6 +42,8 @@ const Edit=()=>{
         Enter Category : <input type="text" name="category" value={mydata.category} onChange={formhandle}  /> <br /> <br/>
         Enter Price : <input type="text" name="price" value={mydata.price} onChange={formhandle}  /> <br /> <br/>
         Enter Description : <input type="text" name="description" value={mydata.description} onChange={formhandle}  /> <br /> <br/>
+        Enter Quantity : <input type="number" name="quantity" value={mydata.quantity} onChange={formhandle}  /> <br /> <br/>
+
         Enter Created : <input type="text" name="created" value={mydata.created} onChange={formhandle}  /> <br /> <br/>
         <button onClick={savedata} >Update Data</button>
         </form>

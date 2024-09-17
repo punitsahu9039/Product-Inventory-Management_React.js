@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Table from 'react-bootstrap/Table';
+import { message } from "antd";
 const Product=()=>{
     const[mydata,setmydata]=useState([]);
     const navigate=useNavigate();
@@ -22,7 +23,7 @@ const addproduct=()=>{
 const DataDelete=(myid)=>{
     let api=`http://localhost:3000/products/${myid}`;
     axios.delete(api).then((res)=>{
-        alert("Data Deleted Succcessfully")
+        message.error("Data Deleted Succcessfully");
         loaddata();
     })
 }
@@ -43,30 +44,21 @@ const answer=mydata.map((key)=>{
           <td>{key.category}</td>
           <td>{key.description}</td>
           <td>{key.price}</td>
+          <td>{key.quantity}</td>
+
           <td>
           <button onClick={()=>{DataEdit(key.id)}} style={{backgroundColor:"green"}}>Edit </button>|
                 <button onClick={()=>{DataDelete(key.id)}} style={{backgroundColor:"blue"}}>Delete</button>
         </td>
         </tr>
         
-          
-     
-        
-    
-      
-
-
-
-
-
-        </>
+          </>
     )
 })
 
     return(
         <>
         <h1 align="center">Product List</h1>
-        {/* <button onClick={addproduct}>Add Product</button> */}
         <Table striped bordered hover size="sm">
 <thead>
         <tr>
@@ -75,6 +67,7 @@ const answer=mydata.map((key)=>{
           <th>Category</th>
           <th>Description</th>
           <th>Price</th>
+          <th>Quantity</th>
           <th>Action</th>
           </tr>
           {answer}
