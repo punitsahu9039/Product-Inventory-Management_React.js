@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": "95fd",
-      "name": "galaxy",
-      "brand": "galaxy",
-      "category": "galaxy",
-      "price": "galaxy",
-      "quantity": "10",
-      "description": "galaxy",
-      "created": "01-01-2024"
-    },
-    {
       "id": "724b",
       "name": "oppo",
       "brand": "oppo",
@@ -39,6 +29,26 @@
       "description": "good phone",
       "quantity": "5",
       "created": "2024"
+    },
+    {
+      "id": "d832",
+      "name": "jzdgjfzd",
+      "brand": "hjsjh",
+      "category": "hgzdhg",
+      "price": "7878",
+      "description": "jkdzkjhzdf",
+      "quantity": "2",
+      "created": "3024"
+    },
+    {
+      "id": "bd1c",
+      "name": "monika mobile ",
+      "brand": "samsung",
+      "category": "samsung",
+      "price": "110000",
+      "description": "nice product",
+      "quantity": "17",
+      "created": "klfjdwlkf"
     }
   ]
 }
